@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        gap: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    .head{
+        display: flex;
+        gap: 80px;
+        color: white;
+    }
+    body{
+         background:linear-gradient(90deg,pink,blue,purple)
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        border: 3px solid white;
+        padding: 5px;
+        border-radius: 4px;
+
+    }
+     @media(max-width:1050px){
+      body
+           {font-family: Georgia, 'Times New Roman', Times, serif;
+           background-color: darkcyan;
+             color: brown;
+            }
+             h1{
+              background-color: cornflowerblue;
+             }
+             .head{
+                display: grid;
+             }
+             img{
+                width: 250px;
+                height: 250px;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+             }
+             .box{
+                display: grid;
+             }
+
+     }
+</style>
+<body>
+    <h1><u>Nature</u></h1>
+    <div class="main">
+        <img src="./IMAGES/cat.jpg">
+        <img src="./IMAGES/flower.jpg">
+        <img src="./IMAGES/rain.jpg">
+        <img src="./IMAGES/nat1.jpg">
+    </div>
+    <div class="head">
+        <dl>
+            <dd style="margin-left: -10px;"><b>Cat :</b></dd>
+            <dt style="margin-left: 5px;">A cat may be small,but it fills <br>your heart in the biggest way.</dt>
+        </dl>
+        <dl>
+            <dd style="margin-left: 83px;"><b>Flower :</b></dd>
+                <dt style="margin-left:120px;" >Bloom with grace,grow through every season.<br>Like flowers,we rise after every rain. 🌷</dt>
+        </dl>
+        <dl style="margin-left: -31px;">
+            <dd style="margin-left: -2px;"><b>Rain :</b></dd>
+            <dt style="margin-left: 32px;">Dancing in the rain,feeling alive again.<br>Rain is not just water,it’s a feeling.</dt>
+        </dl>
+        <dl>
+            <dd style="margin-left: -21px;"><b>Nature :</b></dd>
+            <dt style="margin-left: 27px;">Nature always wears the colors<br> of the spirit</dt>
+        </dl>
+    </div>
+
+    <div class="box">
+        <div style="border: 1px solid palevioletred;">BOX 1</div>
+        <div style="border: 1px solid palevioletred;">BOX 2</div>
+        <div style="border: 1px solid palevioletred;">BOX 3</div>
+        <div style="border: 1px solid palevioletred;">BOX 4</div>
+        <div style="border: 1px solid palevioletred;">BOX 5</div>
+        <div style="border: 1px solid palevioletred;">BOX 6</div>
+    </div>
+
+
+
+    
+</body>
+</html>

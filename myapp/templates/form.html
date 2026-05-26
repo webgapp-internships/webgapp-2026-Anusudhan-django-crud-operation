@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        form{
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form" method="POST">
+        {% csrf_token %}
+    <center>
+        <h1 style="color: chartreuse;">LOGIN <span style="color: blueviolet;">FORM</span></h1>
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+        <label>Age:</label>
+        <input type="number" name="age" id="age"><br><br>
+        <label>DOB:</label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <input style="background-color: blue;" type="submit" value="Submit">
+        <input type="reset" value="reset">
+    </center>
+    </form>
+    
+</body>
+</html>

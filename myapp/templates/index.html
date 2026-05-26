@@ -1,0 +1,312 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <style>
+       body{
+        background-color: bisque;
+      }
+      nav{
+        background-color:black;
+        color: white;
+        display: flex;
+
+    }
+    ul{
+        display: flex;
+        gap: 112px;
+    }
+    li{
+        list-style: none;
+        gap: 20px;
+    }
+
+       
+    .main{
+      display: flex;
+      gap: 30px;
+      margin-left:37px;
+      margin-top: 50px;
+         }
+    .photo{
+      display: flex;
+      gap: 50px;
+      width: 400px;
+      height: 700px;
+      margin-left: 100px;
+      margin-top: 45px;
+    }  
+    .text{
+          display: flex;
+          gap: 356px;
+          color: gray;
+          font-family: fantasy;
+          margin-left: 206px;
+          margin-top: 30px;
+    } 
+    .new{
+          display: flex;
+          gap: 1161px;
+          margin-left: 30px;
+          margin-top: 30px;
+    }
+    .image{
+      display: flex;
+      gap: 160px;
+      margin-left: 125px;
+      margin-top: 70px;
+    }
+    .text1{
+      display: flex;
+      margin-left: 201px;
+      gap: 360px;
+      margin-top: 20px;
+      color: grey;
+    }
+    .winter{
+      display: flex;
+      margin-left: 125px;
+      margin-top: 50px;
+      gap: 75px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border: 2px solid white;
+    }
+    .best{
+          display: flex;
+          gap: 1161px;
+          margin-left: 30px;
+          margin-top: 60px;
+    }
+    .image1{
+      display: flex;
+      gap: 140px;
+      margin-left: 110px;
+      margin-top: 70px;
+    }
+    .text2{
+      display: flex;
+      margin-left: 201px;
+      gap: 360px;
+      margin-top: 20px;
+      color: grey;
+    }
+    @media(max-width:1050px){
+      body {font-family: Georgia, 'Times New Roman', Times, serif;
+           background-color: rgb(6, 198, 198);
+             color: brown;}
+             h1{
+              background-color:blue;
+              color: white;
+             }
+             .image{
+              display: grid;
+             }
+            .photo{
+              display: grid;
+
+     }}
+    </style>
+    
+</head>
+<body>
+  
+    <nav class="navbar navbar-dark bg-primary">
+      <h1 style="margin-left: 5px;">Kaira</h1>
+      <ul>
+            <li>Home<span><i class="fa-solid fa-caret-down"></i></span></li>
+            <li>Shop<span><i class="fa-solid fa-caret-down"></i></span></li>
+            <li>Blog<span><i class="fa-solid fa-caret-down"></i></span></li>
+            <li>Contact<span><i class="fa-solid fa-caret-down"></i></span></li>
+      <h4>Wishlist(0)</h4>
+      <h4>Cart(0)</h4>
+      <input type="search" value="search here">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </ul>
+    </nav>
+    <center>
+        <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">New Collections</h1>
+        <h5 style="font-family:Arial">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Saepe voluptas ut dolorum consequuntur, adipisci repellat! <br>Eveniet commodi voluptatem voluptate, eum minima, in suscipit explicabo <br>voluptatibus harum, quibusdam ex repellat eaque!</h5>
+    </center>
+
+     
+    <div style="margin-top: 35px;" class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img style="height: 377px;" src="./IMAGES/men.jpg" class="card-img-top" alt="sample img">
+      <div class="card-body">
+        <h2 class="card-title">Mens Collections</h2>
+        <p class="card-text">Men’s dress collections include a wide variety of stylish and comfortable outfits suitable for different occasions. Casual wear such as T-shirts, jeans, and shirts are perfect for everyday use, while formal wear like suits, blazers, and formal shirts give a professional and elegant look.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><u>Discover now</u></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img style="height: 377px;" src="./IMAGES/women.jpg" class="card-img-top" alt="sample img">
+      <div class="card-body">
+        <h2 class="card-title">Womens Collections</h2>
+        <p class="card-text">Women’s dress collections include a variety of fashionable and elegant outfits designed for different occasions and styles. Casual wear such as tops, jeans, kurtis, and dresses are comfortable for daily use, while formal wear like blazers, sarees, and office outfits give a professional appearance.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><u>Discover now</u></small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img style="height: 375px;" src="./IMAGES/kidss.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h2 class="card-title">Kids Collections</h2>
+        <p class="card-text">Kids’ dress collections include a wide range of colorful, comfortable, and stylish outfits designed for different occasions and age groups. Casual wear such as T-shirts, shorts, frocks, and jeans are perfect for daily activities and festive dresses give a cute and attractive look for special occasions.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted"><u>Discover now</u></small>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+
+
+
+<div class="main">
+  <div class="a1">
+    <i class="fa-regular fa-calendar"></i>
+    <h2><em>Book An Appointment</em></h2>
+    <p> At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+  </div>
+  <div class="a2">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <h2><em>Pick up in store</em></h2>
+    <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+  </div>
+  <div class="a3">
+    <i class="fa-solid fa-gift"></i>
+    <h2><em>Special packaging</em></h2>
+    <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+  </div>
+  <div class="a4">
+    <i class="fa-solid fa-rotate"></i>
+    <h2><em>free global returns</em></h2>
+    <p>At imperdiet dui accumsan sit amet nulla risus est ultricies quis.</p>
+  </div>
+</div>
+<div class="photo">
+  <img src="./IMAGES/m1.jpg" alt="sample img">
+  <img  src="./IMAGES/w1.jpg" alt="sample img">
+  <img style="width: 500px; height: 700px;" src="./IMAGES/k1.jpg" alt="sample img">
+</div>
+<div class="text">
+  <h3> Shop for men</h3>
+  <h3> Shop for women</h3>
+  <h3> Shop for kids</h3>
+</div>
+<div class="new">
+  <h1><i>Our New Arrivals</i></h1>
+  <p><u>view all products</u></p>
+</div>
+
+<div class="image">
+  <img src="./IMAGES/m2.jpg" alt="sample img">
+  <img src="./IMAGES/w2.jpg" alt="sample img">
+  <img style="width: 243px;" src="./IMAGES/k2.jpg" alt="sample img">
+  <img src="./IMAGES/w3.jpg" alt="sample img">
+</div>
+<div class="text1">
+  <p>White Shirt<br>$43</p>
+  <p>Maxi<br>$67</p>
+  <p>Gown<br>$54</p>
+  <p>Long dress<br>$56</p>
+</div>
+
+<div class="winter">
+  <img style="width: 600px; height: 600px;" src="./IMAGES/win.jpg" alt="sample img">
+  <div class="win1">
+  <h1  style="font-family: 'Times New Roman'; margin-top: 50px;">Classic Winter<br> Collection</h1><br><br><br>
+  <p style="margin-top: -34px;margin-left:13px;">Dignissim lacus, turpis ut suspendisse vel tellus.<br> Turpis purus, gravida orci, fringilla a.<br> Ac sed eu fringilla odio mi. Consequat pharetra at magna  <br>imperdiet cursus ac faucibus sit libero.<br> Ultricies quam nunc, lorem sit lorem urna,  <br>pretium aliquam ut. In vel, quis donec dolor id in.<br> Pulvinar commodo mollis diam sed facilisis at cursus<br> imperdiet cursus ac faucibus sit faucibus sit libero.</p>
+</div>
+<input style="background-color: black; color: white;     height: 35px; width: 120px;margin-top: 440px;margin-left: -350px;" type="button" value="Shop collection">
+</div>
+
+<div class="best">
+  <h1><i>Best Selling Items</i></h1>
+  <p><u>view all products</u></p>
+</div>
+
+<div class="image1">
+  <img src="./IMAGES/m3.jpg" alt="sample img">
+  <img src="./IMAGES/w4.jpg" alt="sample img">
+  <img style="width: 265px;" src="./IMAGES/k4.jpg" alt="sample img">
+  <img src="./IMAGES/m4.jpg" alt="sample img">
+</div>
+
+<div class="text2">
+  <p>Brown Shirt<br>$43</p>
+  <p>Maxi<br>$67</p>
+  <p>Gown<br>$54</p>
+  <p>Blue shirt<br>$56</p>
+</div>
+ 
+<img style="margin-top: 60px;margin-left: 20px;" src="./IMAGES/video-image.jpg" alt="sample img">
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img  style="width:800px;margin-left:28px;margin-top: 75px; height: 600px;" src="./IMAGES/trans.jpg" class="d-block w-100" alt="...">
+      <div style="color: grey;" class="carousel-caption d-none d-md-block">
+        <h2>WE LOVE GOOD COMPLIMENT</h2>
+        <h5>“More than expected crazy soft, flexible and best fitted white simple denim shirt.”</h5>
+        <P>casual way</P>
+      </div>
+      </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img  style="width:800px;margin-left:28px;margin-top: 75px; height: 600px;" src="./IMAGES/trans.jpg" class="d-block w-100" alt="...">
+      <div style="color: grey;"  class="carousel-caption d-none d-md-block">
+        <h2>WE LOVE GOOD COMPLIMENT</h2>
+        <h5>“Best fitted white denim shirt more than expected crazy soft, flexible</h5>
+        <p>uptop</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img  style="width:800px;margin-left:28px;margin-top: 75px; height: 600px;" src="./IMAGES/trans.jpg" class="d-block w-100" alt="...">
+      <div style="color: grey;"  class="carousel-caption d-none d-md-block">
+        <h2>WE LOVE GOOD COMPLIMENT</h2>
+        <h5>“Best fitted white denim shirt more than expected crazy soft, flexible</h5>
+        <p>uptop</p>
+      </div>
+    </div>
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  
+  
+
+
+
+</body>
+</html> 
+ 
+ 
