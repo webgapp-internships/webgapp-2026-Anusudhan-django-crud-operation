@@ -9,5 +9,7 @@ urlpatterns = [
     path('flex',views.flex,name='flex'),
     path('form',views.form,name='form'),
     path('formresult',views.formresult,name='formresult'),
-    path('formedit',views.formedit,name='formedit'),
+    path('formedit/<int:id>',views.formedit,name='formedit'),
+    path('formdelete/<int:id>',views.formdelete,name='formdelete')
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT);
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

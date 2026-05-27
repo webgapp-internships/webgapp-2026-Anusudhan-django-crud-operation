@@ -21,6 +21,8 @@
                 <td>{{i.name}}</td>
                 <td>{{i.age}}</td>
                 <td>{{i.dob}}</td>
+                <td><a href="{% url 'formedit' i.id%}">Edit</a></td>
+                <td><a href="{% url 'formdelete' i.id%}">Delete</a></td>
             </tr>
             {% endfor %}
         </tbody>

@@ -48,8 +48,8 @@
 <body>
   <nav>
         <ul>
-  <li><a href="homee.html">Home</a></li>
-  <li><a href="about.html">About</a></li>
+  <li><a href="{% url 'index'%}">Home</a></li>
+  <li><a href="{% url 'about'%}">About</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li><a href="./webpage.html">Webpage</a></li>
          </ul>
@@ -102,13 +102,13 @@ Building bright futures through quality computer education.</h4>
 <div style="margin-top: 30px;" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style="height: 755px;" src="./IMAGES/digit.jpg" class="d-block w-100" alt="...">
+      <img style="height: 755px;" src="./static/image/digit.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img style="height: 755px;" src="./IMAGES/pyt.jpg.jpg" class="d-block w-100" alt="...">
+      <img style="height: 755px;" src="./static/image/pyt.jpg.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img style="height: 755px;" src="./IMAGES/f1.jpg" class="d-block w-100" alt="...">
+      <img style="height: 755px;" src="./static/image/f1.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
